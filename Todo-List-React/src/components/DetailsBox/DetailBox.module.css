@@ -1,0 +1,77 @@
+.todoList{
+    display: flex;
+    flex-direction: column;
+}
+.todoListItem{
+    background-color:#c7d5d3 ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin: 0.2rem 0 0.2rem 0;
+}
+.todoListItem h3{
+    font-size: 1.5rem;
+    color:#380036 ;
+    font-weight: bold;
+}
+.todoListItem p{
+    color: #670f64;
+    font-size: 1rem;
+}
+.icon{
+    font-size: 2rem;
+    color: rgb(153, 135, 135);
+    cursor: pointer;
+}
+.icon:hover{
+    color: rgb(138, 17, 17);
+}
+.checkIcon{
+    font-size: 2rem;
+    color: rgb(50, 143, 62);
+    cursor: pointer;
+}
+.checkIcon:hover{
+    color: rgb(21, 109, 31);
+
+}
+.editIcon{
+    font-size: 2rem;
+    color: #425f81;
+    cursor: pointer;
+}
+.editIcon:hover{
+
+    color: #284c75;
+
+}
+.actionBox{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.editWrapper{
+    background-color:#284c75 ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.editWrapper input ,.editWrapper textarea{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
+.primaryBtn{
+    background-color: #2660A4;
+    border: none;
+}
+.primaryBtn:hover{
+    background-color: #284c75;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width:379px){
+    
+}
